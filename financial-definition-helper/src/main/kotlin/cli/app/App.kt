@@ -1,5 +1,5 @@
 package cli.app
 
-fun main() {
-    println("success!")
+fun main(args: Array<String>) {
+    args.forEach { println(it) }
 }
